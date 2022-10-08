@@ -36,9 +36,14 @@ body {
 .topbar {
   color: #ffffff;
   background-image: var(--secondary-color);
-  padding: 16px 64px;
+  padding: 0 64px;
 }
-.topbar > b {
+.topbar > span {
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.topbar b {
   font-size: 16px;
   margin: 16px;
 }
