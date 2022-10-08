@@ -73,7 +73,7 @@ button {
 }
 
 button > a {
-  font-size: 16px;
+  font-size: 32px;
   color: var(--text-btn)
   text-decoration: none;
 }
@@ -121,6 +121,10 @@ img {
   button {
     width: 100%;
     border-radius: 4px;
+    height: 48px;
+  }
+  button > a {
+    font-size: 16px;
   }
  
   @media (orientation: portrait) or (max-width: 360px) {
