@@ -83,3 +83,19 @@ button > a {
 .discord > a {
   color: #ffffff;
 }
+
+/*****************************************/
+
+img {
+  border-radius: 12px;
+}
+
+.logo {
+  border-radius: 16px;
+}
+
+.main-logo {
+  border-radius: 32px;
+  height: 192px;
+  width: 192px;
+}
