@@ -104,6 +104,24 @@ img {
   width: 192px;
 }
 
+/*****************************************/
+
+.notice {
+  color: #ffffff;
+  background-color: #0284c7;
+  padding: 32px;
+  outline: solid 8px #0284c7aa;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+}
+.notice .close {
+  background-color: #64748bcc;
+  padding: 8px;
+  outline: solid 8px #64748baa;
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 640px) {
   header, .section {
     padding: 32px;
