@@ -68,8 +68,10 @@ button {
   background-image: var(--bg-btn-full);
 }
 
-.discord {
+.btn-discord {
+  color: var(--text-btn-full);
   background-color: #6366f1;
+  font-weight: 400;
 }
 
 button > a {
