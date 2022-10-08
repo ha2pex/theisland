@@ -91,8 +91,8 @@ img {
 }
 
 .main-logo {
-  border-radius: 32px;
-  height: 128px;
+  border-radius: 64px;
+  height: 192px;
 }
 
 /*****************************************/
@@ -134,14 +134,14 @@ img {
 
   .logo {
     border-radius: 8px;
-    width: 192px;
-    height: 192px;
+    width: 96px;
+    height: 96px;
   }
 
   .main-logo {
-    border-radius: 8px;
-    height: 64px;
-    width: 64px;
+    border-radius: 16px;
+    height: 96px;
+    width: 96px;
   }
 
   .notice {
