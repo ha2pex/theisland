@@ -105,6 +105,7 @@ img {
 .main-logo {
   border-radius: 32px;
   height: 32px;
+  vertical-align: text-middle;
 }
 
 /*****************************************/
