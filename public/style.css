@@ -36,7 +36,6 @@ body {
 .topbar {
   color: #ffffff;
   background-image: var(--secondary-color);
-  height: 64px;
   padding: 24px 64px;
 }
 .topbar > h1 {
