@@ -117,6 +117,8 @@ img {
 }
 .notice .close {
   background-color: #334155cc;
+  height: 32px;
+  width: 32px;
   padding: 8px;
   outline: solid 8px #334155aa;
   border-radius: 50%;
@@ -142,6 +144,12 @@ img {
 
   .main-logo {
     border-radius: 8px;
+    height: 16px;
+  }
+
+  .close {
+    height: 24px;
+    width: 24px;
   }
 
   button {
