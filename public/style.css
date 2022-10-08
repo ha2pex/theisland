@@ -152,6 +152,7 @@ img {
   .notice .close {
     height: 8px;
     width: 8px;
+    padding: 4px;
     outline-width: 4px;
   }
 
