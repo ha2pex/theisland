@@ -44,9 +44,6 @@ header {
   padding: 64px;
 }
 
-h1 {
-  font-size: 64px;
-}
 /*****************************************/
 
 button {
@@ -94,8 +91,8 @@ img {
 }
 
 .main-logo {
-  border-radius: 16px;
-  height: 64px;
+  border-radius: 32px;
+  height: 128px;
 }
 
 /*****************************************/
@@ -143,8 +140,8 @@ img {
 
   .main-logo {
     border-radius: 8px;
-    height: 48px;
-    width: 48px;
+    height: 64px;
+    width: 64px;
   }
 
   .notice {
@@ -159,10 +156,6 @@ img {
     outline-width: 4px;
   }
   
-  h1 {
-    font-size: 48px;
-  }
-
   button {
     width: 100%;
     border-radius: 8px;
