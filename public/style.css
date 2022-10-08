@@ -36,15 +36,15 @@ body {
 .topbar {
   color: #ffffff;
   background-image: var(--secondary-color);
-  padding: 8px 64px;
+  padding: 0 64px;
 }
 .topbar > span {
-  box-sizing: border-box;
+  height: 64px;
+  padding: 16px;
 }
 
 .topbar b {
   font-size: 16px;
-  transform: translate(16px, -16px);
 }
 
 header {
@@ -105,7 +105,7 @@ img {
 
 .main-logo {
   border-radius: 32px;
-  height: 48px;
+  height: 32px;
 }
 
 /*****************************************/
@@ -133,7 +133,7 @@ img {
     padding: 32px;
   }
   .topbar {
-    padding: 8px 32px;
+    padding: 0 32px;
   }
   
   img {
@@ -156,8 +156,8 @@ img {
 
   .main-logo {
     border-radius: 8px;
-    height: 48px;
-    width: 48px;
+    height: 32px;
+    width: 32px;
   }
 
   .notice {
