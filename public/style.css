@@ -136,6 +136,14 @@ img {
     border-radius: 4px;
     width: 100%;
   }
+
+  @media (orientation: portrait) or (max-width: 360px) {
+    img {
+       width: 100%;
+       height: auto;
+    }
+  }
+
   .logo {
     border-radius: 8px;
     width: 192px;
@@ -160,12 +168,5 @@ img {
   }
   button > a {
     font-size: 16px;
-  }
- 
-  @media (orientation: portrait) or (max-width: 360px) {
-    .logo, .main-logo {
-       width: 100%;
-       height: auto;
-    }
   }
 }
