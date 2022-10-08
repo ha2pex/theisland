@@ -39,6 +39,10 @@ body {
   height: 64px;
   padding: 0 64px;
 }
+.topbar > h1 {
+  margin: 24px;
+  font-size: 16px;
+}
 
 header {
   color: var(--primary-text);
@@ -69,9 +73,9 @@ button {
 }
 
 .btn-discord {
-  color: var(--text-btn-full);
+  color: #ffffff;
   background-color: #6366f1;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 button > a {
@@ -82,7 +86,7 @@ button > a {
 .btn-full > a {
   color: var(--text-btn-full);
 }
-.discord > a {
+.btn-discord > a {
   color: #ffffff;
 }
 
