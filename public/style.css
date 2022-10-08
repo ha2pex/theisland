@@ -100,8 +100,8 @@ img {
 
 .main-logo {
   border-radius: 32px;
-  height: 192px;
-  width: 192px;
+  margin: -16px;
+  height: 16px;
 }
 
 /*****************************************/
@@ -113,12 +113,12 @@ img {
   outline: solid 8px #0284c7aa;
   border-radius: 32px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .notice .close {
-  background-color: #64748bcc;
+  background-color: #334155cc;
   padding: 8px;
-  outline: solid 8px #64748baa;
+  outline: solid 8px #334155aa;
   border-radius: 50%;
 }
 
