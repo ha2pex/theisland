@@ -134,10 +134,14 @@ img {
     border-radius: 4px;
     width: 100%;
   }
-  .logo, .main-logo {
+  .logo {
     border-radius: 8px;
     width: 192px;
     height: 192px;
+  }
+
+  .main-logo {
+    border-radius: 8px;
   }
 
   button {
