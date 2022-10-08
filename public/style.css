@@ -36,10 +36,11 @@ body {
 .topbar {
   color: #ffffff;
   background-image: var(--secondary-color);
-  padding: 24px 64px;
+  padding: 16px 64px;
 }
 .topbar > h1 {
   font-size: 16px;
+  margin: 16px;
 }
 
 header {
@@ -100,8 +101,7 @@ img {
 
 .main-logo {
   border-radius: 32px;
-  margin: -16px;
-  height: 16px;
+  height: 48px;
 }
 
 /*****************************************/
@@ -129,7 +129,7 @@ img {
     padding: 32px;
   }
   .topbar {
-    padding: 24px 32px;
+    padding: 16px 32px;
   }
   
   img {
@@ -144,12 +144,12 @@ img {
 
   .main-logo {
     border-radius: 8px;
-    height: 16px;
+    height: 48px;
   }
 
   .close {
-    height: 24px;
-    width: 24px;
+    height: 16px;
+    width: 16px;
   }
 
   button {
