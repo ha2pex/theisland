@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avenir Next, sans-serif;
+}
+
+:root {
+  --primary-color: #2dd4bf;
+  --secondary-color: linear-gradient(22deg, #06b6d4, #0369a1);
+  --text-main: #0f172a;
+  --text-accent: var(--text-main);
+  --text-btn: var(--secondary-color);
+  --text-btn-full: #ffffff;
+  --bg-main: #f8fafc;
+  --bg-accent: #e2e8f0;
+  --bg-btn: #ffffff;
+  --bg-btn-full: linear-gradient(22deg, #06b6d4, #0369a1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #0369a1;
+    --text-main: #ffffff;
+    --text-accent: #e2e8f0;
+    --bg-main: #334155;
+    --bg-accent: #64748b;
+  }
+}
