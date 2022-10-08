@@ -74,7 +74,7 @@ button {
 
 button > a {
   font-size: 32px;
-  color: var(--text-btn)
+  color: var(--text-btn);
   text-decoration: none;
 }
 .btn-full > a {
