@@ -36,16 +36,15 @@ body {
 .topbar {
   color: #ffffff;
   background-image: var(--secondary-color);
-  padding: 0 64px;
+  padding: 8px 64px;
 }
 .topbar > span {
   box-sizing: border-box;
-  padding: 8px;
 }
 
 .topbar b {
   font-size: 16px;
-  margin: 16px;
+  transform: translate(16px, 16px);
 }
 
 header {
@@ -134,7 +133,7 @@ img {
     padding: 32px;
   }
   .topbar {
-    padding: 16px 32px;
+    padding: 8px 32px;
   }
   
   img {
