@@ -115,6 +115,22 @@ img {
   border-radius: 50%;
 }
 
+/*****************************************/
+
+h2 {
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 8px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+
 @media only screen and (max-width: 640px) {
   header, .section {
     padding: 32px;
