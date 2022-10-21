@@ -14,6 +14,7 @@
   --text-btn-full: #ffffff;
   --bg-main: #f8fafc;
   --bg-accent: #e2e8f0;
+  --bg-red: #f87171;
   --bg-btn: #ffffff;
   --bg-btn-full: linear-gradient(22deg, #06b6d4, #0369a1);
 }
@@ -25,6 +26,7 @@
     --text-accent: #e2e8f0;
     --bg-main: #334155;
     --bg-accent: #64748b;
+    --bg-red: #dc2626;
   }
 }
 
