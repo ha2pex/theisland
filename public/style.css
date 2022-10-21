@@ -78,9 +78,15 @@ button > a {
 .btn-full > a {
   color: var(--text-btn-full);
 }
-.btn-discord > a {
+.btn-discord > a, 
+.btn-error > a{
   color: #ffffff;
 }
+
+.btn-error {
+  background-color: var(--bg-red);
+} 
+
 
 /*****************************************/
 
